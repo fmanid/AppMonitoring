@@ -22,12 +22,12 @@
         </span>
       </div>
       <div class="alert-text">
-        Welcome {{ Auth::User()->name }}, <br>
-        <span class="text-muted"> Application Version 1.0.0 </span>
+        Welcome {{ Auth::User()->name }} <br>
+        <span class="text-muted"> </span>
       </div>
     </div>
   </div>
-  <div class="col-md-3">
+  {{-- <div class="col-md-3">
     <div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
       <div class="alert-icon">
         <span class="svg-icon svg-icon-info"><!--begin::Svg Icon | path:C:\wamp64\www\keenthemes\themes\metronic\theme\html\demo1\dist/../src/media/svg/icons\General\User.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -42,7 +42,7 @@
         <span class="font-weight-bold"> Total Users </span><br> 5 Users
       </div>
     </div>
-  </div>
+  </div> --}}
 </div>
 
 <div class="row">
@@ -124,7 +124,7 @@ var KTApexChartsDemo = function () {
       stroke: { curve: 'smooth' },
       xaxis: { categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], },
 
-      colors: [info, success, danger]
+      colors: [success, info, danger]
     };
 
     var chart = new ApexCharts(document.querySelector(apexChart), options);

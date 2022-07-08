@@ -7,7 +7,7 @@
   <meta name="author" content="EXILEDNONAME">
   <meta name="description" content="EXILEDNONAME">
   <meta name="keywords" content="EXILEDNONAME">
-  <title> EXILEDNONAME </title>
+  <title> Sistem Monitoring </title>
 
   <link rel="stylesheet" type="text/css" href="/assets/frontend/font-awesome.css">
 
@@ -43,10 +43,10 @@
         <div id="home-page" class="page-wrapper vhm-item active-home anim s01">
           <div class="container">
             <div class="tagline ac anim fadeInUp s01 delay-0-6s">
-              <h1> EXILEDNONAME </h1>
+              <h1> Sistem Monitoring </h1>
               <p class="anim fadeInUp s01 delay-0-7s"> Our Website Is Coming Soon. We`ll be here soon with our new Imagination. </p>
             </div>
-            <div class="copyrights ac anim fadeInUp s01 delay-1s"> @2021 - EXILEDNONAME </div>
+            <div class="copyrights ac anim fadeInUp s01 delay-1s"> @2021 - Sistem Monitoring </div>
           </div>
         </div>
       </div>

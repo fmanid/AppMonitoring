@@ -23,7 +23,7 @@
 
     <!-- HEADER MENU RIGHT -->
     <div class="topbar">
-      @include('includes.components.header-menu-right.languages')
+      {{-- @include('includes.components.header-menu-right.languages') --}}
       @include('includes.components.header-menu-right.user')
     </div>
 

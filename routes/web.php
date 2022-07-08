@@ -1,7 +1,7 @@
 <?php
 
 Auth::routes();
-Route::get('/', function () { return view('pages.frontend.index'); });
+Route::get('/', 'Backend\System\DashboardController@index')->name('dashboard.index');
 
 // LANGUAGE
 Route::get('lang/{language}', 'LocalizationController@switch')->name('localization.switch');

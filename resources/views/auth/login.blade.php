@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 	<meta charset="utf-8" />
-	<title> {{ env('APP_NAME') }} - Login Area </title>
+	<title>  Login </title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -23,7 +23,7 @@
 
 	<div class="login-cover">
 		<div class="login-cover-image" style="background-image: url(/assets/login/img/login-bg/default.jpg)" data-id="login-cover-image"></div>
-		<div class="login-cover-bg"></div>
+		{{-- <div class="login-cover-bg"></div> --}}
 	</div>
 
 	<div id="page-container" class="fade">
@@ -31,7 +31,7 @@
 			<div class="login-header">
 				<div class="brand">
 					<b>LOGIN</b>
-					<small> Created by <b>{{ env('APP_NAME') }}</b> </small>
+					{{-- <small> Created by <b>{{ env('APP_NAME') }}</b> </small> --}}
 				</div>
 			</div>
 

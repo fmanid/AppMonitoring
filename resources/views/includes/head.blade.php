@@ -17,5 +17,5 @@
 <link href="/assets/backend/css/themes/layout/header/menu/light.css?v=7.0.5" rel="stylesheet" type="text/css" />
 <link href="/assets/backend/css/themes/layout/brand/dark.css?v=7.0.5" rel="stylesheet" type="text/css" />
 <link href="/assets/backend/css/themes/layout/aside/dark.css?v=7.0.5" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="/assets/backend/media/logos/favicon.ico" />
+<link rel="shortcut icon" href="/assets/backend/media/logos/logo.png" />
 @stack('head')
